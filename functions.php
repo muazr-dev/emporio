@@ -1,4 +1,14 @@
 <?php
+/*-------------------------------------------------------------------------------*/
+
+function emporio_theme_support()
+{
+    // Adds Dynamic title tag support
+    add_theme_support('title-tag');
+}
+add_action('after_theme_setup', 'emporio_theme_support');
+
+/*-------------------------------------------------------------------------------*/
 
 function emporio_register_styles()
 {
@@ -10,6 +20,8 @@ function emporio_register_styles()
 }
 
 add_action('wp_enqueue_scripts', 'emporio_register_styles');
+
+/*-------------------------------------------------------------------------------*/
 
 function emporio_register_scripts()
 {
@@ -40,3 +52,4 @@ function emporio_register_scripts()
 }
 
 add_action('wp_enqueue_scripts', 'emporio_register_scripts');
+/*-------------------------------------------------------------------------------*/
