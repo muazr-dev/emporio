@@ -18,7 +18,7 @@ function emporio_register_styles()
     $version = wp_get_theme()->get('Version');
     wp_enqueue_style("emporio-main", get_template_directory_uri() .
         './style.css', array(), $version, 'all');
-    wp_enqueue_style("emporio-bootstrap", "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css", array(), $version, 'all');
+    wp_enqueue_style("emporio-bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css", array(), $version, 'all');
     wp_enqueue_style("emporio-fontawesome", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css", array(), $version, 'all');
 }
 
@@ -38,16 +38,16 @@ function emporio_register_scripts()
     );
     wp_enqueue_script(
         "emporio-popper",
-        "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js",
+        "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js",
         array(),
-        '1.16.0',
+        '2.11.8',
         true
     );
     wp_enqueue_script(
         "emporio-bootstrap",
-        "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js",
+        "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js",
         array(),
-        '3.4.1',
+        '5.3.3',
         true
     );
     wp_enqueue_script("emporio-main", get_template_directory_uri() .

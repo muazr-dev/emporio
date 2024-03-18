@@ -7,6 +7,10 @@
 * Author: Muaz Rehan <muazr.dev@gmail.com>
 */
 
+.navbar{
+list-style: none;
+}
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
