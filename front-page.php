@@ -1,6 +1,7 @@
 <?php get_header() ?>
 
 <div class="main-wrapper">
+    <div><?php wp_nav_menu(array('theme_location' => 'primary-menu', 'menu_class' => 'navbar navbar-default')); ?></div>
     <header class="page-title theme-bg-light text-center gradient py-5">
         <h1 class="heading">Blog Home Page Heading</h1>
     </header>

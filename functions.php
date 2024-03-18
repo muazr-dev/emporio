@@ -8,6 +8,9 @@ function emporio_theme_support()
 }
 add_action('after_theme_setup', 'emporio_theme_support');
 
+// function to get template directory path to apply to images
+// blog_info('template_directory')
+
 /*-------------------------------------------------------------------------------*/
 
 function emporio_register_styles()
@@ -52,4 +55,13 @@ function emporio_register_scripts()
 }
 
 add_action('wp_enqueue_scripts', 'emporio_register_scripts');
+/*-------------------------------------------------------------------------------*/
+//TODO: Add to a function and call on some action later
+register_nav_menus(
+    array('primary-menu' => 'Top Menu')
+);
+
+
+
+
 /*-------------------------------------------------------------------------------*/
