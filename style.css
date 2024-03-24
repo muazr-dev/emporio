@@ -47,6 +47,7 @@ list-style: none;
     /* Sidebar */
     --sidebar-width: 280px;
     --content-max-width: 860px;
+    color: black;
 }
 
 *,
