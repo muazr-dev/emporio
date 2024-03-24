@@ -1,7 +1,7 @@
 {
     "name": "emporio",
     "version": "1.0.0",
-    "description": "Elegant and Simple shopping app theme, providing visually appealing UI and UX.",
+    "description": "Elegantly crafted and effortlessly navigable, emporio redefines the shopping experience. Boasting a sophisticated design and intuitive interface, it captivates users with visually stunning elements while ensuring seamless navigation for unparalleled user satisfaction.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,5 @@
         "url": "https://github.com/muazr-dev/emporio"
     },
     "author": "Muaz Rehan <muazr.dev@gmail.com>",
-    "license": "ISC"
+    "license": "GPL-2.0-or-later"
 }
