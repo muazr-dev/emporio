@@ -5,6 +5,7 @@ function emporio_theme_support()
 {
     // Adds Dynamic title tag support
     add_theme_support('title-tag');
+    add_theme_support('post-thumbnails');
 }
 add_action('after_theme_setup', 'emporio_theme_support');
 
