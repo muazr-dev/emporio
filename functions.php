@@ -58,7 +58,8 @@ add_action('wp_enqueue_scripts', 'emporio_register_scripts');
 /*-------------------------------------------------------------------------------*/
 //TODO: Add to a function and call on some action later
 register_nav_menus(
-    array('primary-menu' => 'Top Menu')
+    array('primary-menu' => 'Top Menu'),
+    array('secondary-menu' => 'Left Menu')
 );
 
 
